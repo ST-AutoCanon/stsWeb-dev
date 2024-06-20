@@ -1,0 +1,46 @@
+.loginPage{
+    background: url('asset/img/sukacover.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+
+.loginForm{
+    background-color: #0d3353;
+    color: white;
+}
+
+ul li :hover {
+    background-color: gray;
+}
+
+.employee_image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.emp_det_image{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.hanu{
+    background: url('asset/img/sukacover.jpg');
+    background-size: 100%;
+}
+
+.loginpage{
+    background: url('asset/img/bag.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+
+.page{
+    background: url('asset/img/Welcome.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+}
+

@@ -1,0 +1,91 @@
+.loginPage{
+    background: url('asset/img/sukacover.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+
+.loginForm{
+    background-color: #0d3353;
+    color: white;
+}
+
+ul li :hover {
+    background-color: gray;
+}
+
+.employee_image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.emp_det_image{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.hanu{
+    background: url('asset/img/sukacover.jpg');
+    background-size: 100%;
+}
+
+
+
+.page{
+    background: url('asset/img/Welcome.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+}
+.dts{
+    background: url('asset/img/cool.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.drs{
+    background: url('asset/img/Untitled design.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.login{
+    background: url('asset/img/out.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.button2 {
+    background: linear-gradient(to bottom right, #FF5733, #ff0080);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 40px;
+    margin: 10px;
+    transition: transform 0.5s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+}
+.apj{
+    background: url('asset/img/bos.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.pjp{
+    background: url('asset/img/koi.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.kcd{
+    background: url('asset/img/dark.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.plm{
+    background: url('asset/img/plm.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

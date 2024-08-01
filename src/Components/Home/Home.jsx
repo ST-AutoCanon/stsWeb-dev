@@ -387,7 +387,7 @@ const Home = () => {
             <div className="ms-4">
               <div className='brp'>
             <h4 className="section-title bg-white text-center text-primary px-3" style={{marginLeft:390}}>
-          MASSION
+          MISSION
         </h4>
         </div>
               <span />

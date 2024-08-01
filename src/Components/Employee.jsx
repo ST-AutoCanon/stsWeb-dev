@@ -37,10 +37,8 @@ const Employee = () => {
             <Link to="/dashboard/add_employee" className='btn btn-lg btn-success w-10'>
                <i className='bi bi-clipboard-plus'><b>Add Employee</b></i>
             </Link>
-            <Link to="/dashboard/birthday" className='btn btn-warning kng ' style={{marginLeft:590}}>
-               <i className='bi bi-cake-fill'><b>Today Birthday's</b></i>
-            </Link>
-            <div className='mt-3 pss'>
+           
+            <div className='mt-3 tableee'>
                 <table className='table'>
                     <thead>
                         <tr>
@@ -61,8 +59,9 @@ const Employee = () => {
                                 <tr>
                                     <td>{e.name}</td>
                                     <td>
-                                        <img src={`http://localhost:3000/Images/` + e.image} className='employee_image' />
-                                    </td>
+                                       
+                                   <img src={`${import.meta.env.VITE_SUKALPA}/Images/${e.image}`}  className='employee_image'/>
+                                   </td>
                                     <td>{e.email}</td>
                                    
                                     <td>{e.aadhar_number}</td>

@@ -101,7 +101,7 @@ const handleSubmit = (e) => {
   return (
   <div>
     <div className='container-fluid detailpage'>
-    <div className='row flex-nowrap' >
+    <div className='row flex-nowrap tableee' >
         <div className="col-auto col-md-3 col-xl-2 px-sm-2 px-0" style={{backgroundColor: ' #0d3353', marginTop:80}}>
             <div className="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100 ">
             <h4 className='text-white'>{employee.name}</h4>
@@ -165,7 +165,7 @@ const handleSubmit = (e) => {
    
            
    
-    
+    <div className='rrr tableee'>
     <form className="row g-1" onSubmit={handleSubmit}  style={{width:500, marginLeft:300,backgroundColor:'teal',padding:15,marginTop:200,borderRadius:30}}>
           
          
@@ -187,7 +187,7 @@ const handleSubmit = (e) => {
             </div>
           </form>
     
-         
+          </div>
         </div>
         
     </div>

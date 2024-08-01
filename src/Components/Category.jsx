@@ -23,13 +23,13 @@ const Category = () => {
         <div className='d-flex justify-content-center '>
             <h3>-:Category List:-</h3>
         </div>
-       
+       <div className='rrs'>
         <Link to="/dashboard/add_category" className='btn btn-success' style={{marginTop:100,marginLeft:420}}>
         <i className='bi bi-clipboard-plus'><b>Add Category</b></i>
-
         </Link>
+        </div>
         
-        <div className='mt-3'>
+        <div className='mt-3 rrr tableee'>
             <table className='table' style={{width:500,marginLeft:250}}>
                 <thead>
                     <tr>

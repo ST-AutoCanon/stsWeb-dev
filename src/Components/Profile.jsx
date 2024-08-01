@@ -52,6 +52,7 @@ const Profile = () => {
     <input type='date' className='form-control' onChange={Find} placeholder='Search Employee Name' style={{width:250}}/>
     </div>
     <br/>
+    <div className='tableee'>
             <table className='table'>
                 <thead>
                     <tr>
@@ -82,6 +83,7 @@ const Profile = () => {
                    }
                 </tbody>
             </table>
+            </div>
         </div>
   )
 }

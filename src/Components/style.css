@@ -118,15 +118,32 @@ ul li :hover {
     border-radius: 50%;
 }
 @media screen and (max-width:430px){
+    .now{
+        width: 100px;
+    }
+    .pnx{
+        width: 250px;
+    }
+    .jcp{
+        display: none;
+    }
+    .tableee{
+        overflow-x: auto;
+  
+    }
+    .jbb{
+        display: none;
+    }
+    .rrr{
+        margin-left:-300px ;
+        
+    }
+    .rrs{
+        margin-left:-350px ;
+        
+    }
+    .ppp{
+        margin-left:-800px;
+    }
 
-    .pos{
-        display: none;
-    }
-    .alo{
-       margin-left: -300px;
-       margin-bottom: -200px;
-    }
-    .kng{
-        display: none;
-    }
 }

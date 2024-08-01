@@ -108,7 +108,7 @@ const Attendence = () => {
   return (
   <div>
     <div className='container-fluid detailpage'>
-    <div className='row flex-nowrap' >
+    <div className='row flex-nowrap tableee'>
         <div className="col-auto col-md-3 col-xl-2 px-sm-2 px-0" style={{backgroundColor: ' #0d3353', marginTop:80}}>
             <div className="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100 ">
             <h4 className='text-white'>{employee.name}</h4>
@@ -172,7 +172,7 @@ const Attendence = () => {
     <div className='p-2 d-flex justify-content-center shadow'  style={{backgroundColor: 'teal',marginTop:100}}>
       <b><h4 className='text-white'>Leave Approval Status</h4></b>
       </div>
-    <div className='mt-3'  >
+    <div className='mt-3 pnx tableee'  >
             <table className='table'>
                 <thead >
                     <tr>

@@ -7,7 +7,6 @@ import './style.css'
 
 const Leave = () => {
   const [attendance, setAttendance] = useState({
-   
     emp_name: '',
     logged_in_location: '',
   })
@@ -106,7 +105,7 @@ const Leave = () => {
   return (
   <div>
     <div className='container-fluid detailpage'>
-    <div className='row flex-nowrap' >
+    <div className='row flex-nowrap tableee'>
         <div className="col-auto col-md-3 col-xl-2 px-sm-2 px-0 " style={{backgroundColor: ' #0d3353', marginTop:80}}>
             <div className="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100 ">
             <h4 className='text-white'>{employee.name}</h4>
@@ -168,9 +167,10 @@ const Leave = () => {
     <Outlet/>
     
    <div style={{marginTop:150}}></div>
+   <div className='ppp'>
     <Link to={`/micro/` + employee.id} className="btn btn-primary w-25 text-white" style={{borderRadius:100, marginLeft:800, backgroundColor:'#4CAF50',color:'white'}} ><b>For Logout Click here</b></Link>
-   <br/><br/>
-  
+    </div> <br/><br/>
+  <div className='rrr tableee'>
     <form className="row g-1 d-flex justify-content-center align-items-center mt-3"  onSubmit={handleSubmit} style={{width:500, marginLeft:300,backgroundColor:'teal',padding:15,borderRadius:30}}>
     <h1 className='text-white' >-:Employee Attendance:-</h1>
          <br/><br/>
@@ -194,7 +194,7 @@ const Leave = () => {
             </div>
           </form>
     
-         
+          </div>
         </div>
         
     </div>

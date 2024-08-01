@@ -50,7 +50,7 @@ const EditEmployee = () => {
     }
     
   return (
-    <div className="d-flex justify-content-center align-items-center mt-3">
+    <div className="d-flex justify-content-center align-items-center mt-3 apj">
       
       <div className="p-3 rounded w-50 border">
       <div
@@ -59,15 +59,15 @@ const EditEmployee = () => {
     >
       <div className="container text-center py-5">
         <h1 className="display-4 text-white animated slideInDown mb-3">
-          About Us
+          Edit Employee
         </h1>
         
       </div>
     </div>
-        <h3 className="text-center">Edit Employee</h3>
-        <form className="row g-1" onSubmit={handleSubmit}>
+        <h3 className="text-center text-white">Edit Employee</h3>
+        <form className="row g-1 " onSubmit={handleSubmit}>
           <div className="col-12">
-            <label for="inputName" className="form-label">
+            <label for="inputName" className="form-label text-white">
               Name
             </label>
             <input
@@ -82,7 +82,7 @@ const EditEmployee = () => {
             />
           </div>
           <div className="col-12">
-            <label for="inputEmail4" className="form-label">
+            <label for="inputEmail4" className="form-label text-white">
               Email
             </label>
             <input
@@ -98,7 +98,7 @@ const EditEmployee = () => {
             />
           </div>
           <div className='col-12'>
-            <label for="inputSalary" className="form-label">
+            <label for="inputSalary" className="form-label text-white">
               Salary
             </label>
             <input
@@ -114,7 +114,7 @@ const EditEmployee = () => {
             />
           </div>
           <div className="col-12">
-            <label for="inputAddress" className="form-label">
+            <label for="inputAddress" className="form-label text-white">
               Address
             </label>
             <input
@@ -130,7 +130,7 @@ const EditEmployee = () => {
             />
           </div>
           <div className="col-12">
-            <label for="category" className="form-label">
+            <label for="category" className="form-label text-white">
               Category
             </label>
             <select name="category" id="category" className="form-select"

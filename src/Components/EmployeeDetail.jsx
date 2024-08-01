@@ -107,7 +107,7 @@ const EmployeeDetail = () => {
   
   return (
    <div className='container-fluid detailpage'>
-    <div className='row flex-nowrap' >
+    <div className='row flex-nowrap tableee' >
         <div className="col-auto col-md-3 col-xl-2 px-sm-2 px-0" style={{backgroundColor: ' #0d3353', marginTop:80}}>
             <div className="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100 ">
             <h4 className='text-white'>{employee.name}</h4>
@@ -164,7 +164,7 @@ const EmployeeDetail = () => {
     </div>
     <Outlet/>
     
-    <div className='mt-3'>
+    <div className='mt-3 tableee'>
      
             <table className='table'  style={{marginTop:70}}>
               <div className=''></div>

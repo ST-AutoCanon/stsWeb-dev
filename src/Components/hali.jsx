@@ -2,7 +2,9 @@ import React from 'react'
 
 const hali = () => {
   return (
-    <div>hali</div>
+    <div>
+      
+    </div>
   )
 }
 
